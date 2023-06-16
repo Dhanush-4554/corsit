@@ -21,6 +21,7 @@ function Sems1() {
                 <Link className='link'><div class="card"><Semcard number='7' /></div></Link>
                 <Link className='link'><div class="card"><Semcard number='8' /></div></Link>
             </div>
+
         </div>
     )
 }
