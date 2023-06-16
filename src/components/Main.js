@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.css'
 import { Link } from 'react-router-dom'
+import src from './storage/'
 
 
 function Main() {
@@ -13,6 +14,7 @@ function Main() {
             <Link to={'/'} className='link'><p className='branch_name'>➤ Computer Science and Engineering</p></Link>
             <Link to={'/'} className='link'><p className='branch_name'>➤ Computer Science and Engineering</p></Link>
             <Link to={'/'} className='link'><p className='branch_name'>➤ Computer Science and Engineering</p></Link>
+            <embed src={src} />
         </div>
     </div>
   )
