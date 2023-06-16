@@ -1,24 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './components/Main';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Sems1 from './components/Sems1';
+import Cse_sem1 from './components/Cse_sem1';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router>
+    <div className="app">
+      <Routes>
+        <Route path="/" element={[<Navbar />, <Main />]}/>
+        <Route path="/home" element={[<Navbar />, <Main />]}/>
+        <Route path="/cse" element={[<Navbar />, <Sems1 />]}/>
+        <Route path="/cse-sem1" element={[<Navbar />, <Cse_sem1/>]}/>
+        <Route path="/cse-sem2" element={[<Navbar />]}/>
+      </Routes>
     </div>
+  </Router>
   );
 }
 

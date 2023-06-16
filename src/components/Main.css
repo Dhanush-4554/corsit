@@ -1,0 +1,25 @@
+.main{
+    text-align: center;
+}
+.main_headline{
+    font-size: 56px;
+    padding-top: 45px;
+    font-family: sans-serif;
+}
+.main_branch{
+    height: 200px;
+    overflow-y: scroll;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.branch_name{
+    padding: 20px;
+    font-size: 40px;
+    font-family: sans-serif;
+    border-top: 2px solid black ;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: black;
+    text-decoration: none;
+}

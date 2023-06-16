@@ -1,0 +1,63 @@
+.sems1_row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto;
+}
+.semcard{
+    height: 160px;
+    width: 160px;
+    margin: 50px;
+    font-size: 30px;
+    background: linear-gradient(#294A95 , #D93830);
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: sans-serif;
+}
+.cse_sem1{
+    font-family: sans-serif;
+    align-items: center;
+    padding-block-end: 100px;
+}
+
+.cse_sem1 h1 {
+    text-align: center;
+    margin: 60px;
+    font-size: 50px;
+}
+.cse_sem1_subject{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    margin: 20px ;
+}
+.cse_sem1 ul{
+    margin: 65px;
+    list-style: circle;
+}
+table,tr,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-size: 25px;
+    text-align: center;
+}
+table{
+    width: 70%;
+    margin: 0 auto;
+}
+
+td > button {
+    background-color: #5abcfb;
+    padding: 3px 8px;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+a.link.view_link {
+    color: white;
+    font-size: 15px;
+}
